@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/DanTylkowski/futzing-node-mongo#readme",
   "dependencies": {
-    "ejs": "^2.3.1",
     "express": "^4.13.1",
     "restify": "^3.0.3"
   },
