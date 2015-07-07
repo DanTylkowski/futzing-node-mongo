@@ -2,7 +2,6 @@ var express = require( 'express' );
 var app = express();
 
 var mongoDB = require( 'mongodb' );
-var mongoURI = 'mongodb://heroku_bl4sqrxg:ol3j7ktqa56h8ifqeoh5p8hg6c@ds047642.mongolab.com:47642/heroku_bl4sqrxg';
 
 app.set( 'port', ( process.env.PORT || 5000 ) );
 

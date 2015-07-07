@@ -2,9 +2,9 @@
   "name": "futzing-node-mongo",
   "version": "1.0.0",
   "description": "Futzing with node and mongo",
-  "main": "index.js",
+  "main": "api.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -24,6 +24,7 @@
   "dependencies": {
     "express": "^4.13.1",
     "mongodb": "^2.0.36",
+    "mongoose": "^4.0.6",
     "restify": "^3.0.3"
   },
   "engines": {
