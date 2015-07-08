@@ -105,10 +105,6 @@ server.get(
 	}
 );
 
-//curl -i -X POST -d '{ "thing1": "hi", "anotherThing": "hello", "finalThing": "yo" } ' http://localhost:7000/thing
-//curl -i -X POST -d 'thing1=hi&anotherThing=hello&finalThing=yo' http://localhost:7000/thing
-//curl -i -X POST -d 'thing1=hey-ya&anotherThing=yup-yup&finalThing=champ' http://localhost:7000/thing
-
 server.get(
 	'/thing/bything',
 	function( req, res, next ) {
