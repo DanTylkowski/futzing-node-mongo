@@ -39,3 +39,6 @@ function postMessage( req, res, next ) {
 		res.send( req.body );
 	});
 }
+
+server.get( '/messages', getMessages );
+server.post( '/messages', postMessage );

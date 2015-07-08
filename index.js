@@ -31,7 +31,7 @@ var testCollection = [
 ];
 
 mongoDB.MongoClient.connect(
-	mongoURI,
+	process.env.MONGO_URI,
 	function( err, db ) {
   		if( err ) {
   			throw err;
