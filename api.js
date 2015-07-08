@@ -4,7 +4,7 @@ var server = restify.createServer({
 	name: 'mongo-api'
 });
 
-server.listen( 7000, function() {
+server.listen( ( process.env.PORT || 5000 ), function() {
 	console.log( '%s listening at %s', server.name, server.url );
 });
 
